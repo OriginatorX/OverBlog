@@ -1,0 +1,31 @@
+{
+  "name": "backend",
+  "version": "0.1.0",
+  "description": "Overblog's server",
+  "type": "module",
+  "main": "app.js",
+  "scripts": {
+    "devServe": "nodemon app.js",
+    "serve": "cross-env NODE_ENV=production node app.js",
+    "devClient": "yarn --cwd ./client dev",
+    "prodClient": "yarn --cwd ./client build",
+    "dev": "cross-env NODE_ENV=development concurrently \"yarn devServe\" \"yarn devClient\" ",
+    "prod": "yarn prodClient && yarn serve",
+    "deps": "yarn && yarn --cwd ./client"
+  },
+  "author": "Nik Fetisoff",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "config": "^3.3.6",
+    "cross-env": "^7.0.3",
+    "express": "^4.17.1",
+    "express-validator": "^6.13.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.0.13"
+  },
+  "devDependencies": {
+    "concurrently": "^6.4.0",
+    "nodemon": "^2.0.15"
+  }
+}

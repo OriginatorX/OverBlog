@@ -1,0 +1,88 @@
+/*Styles for page "Articles"*/
+
+.Article {
+    width: 100%;
+    height: 100%;
+    background: #212c34;
+    color: whitesmoke;
+    padding: 150px 0;
+}
+
+.Article__ScrollBar {
+    width: 100%;
+    max-width: 45%;
+    margin: 0 auto;
+}
+
+.Article__Preview {
+    padding: 30px 0;
+}
+
+    .Article__Preview::after {
+        content: '';
+        display: block;
+
+        background: #3f4144;
+        width: 100%;
+        height: 2px;
+
+        margin: 20px 0;
+    }
+
+/*preview*/
+
+.Article__Header, .Article__Footer {
+    display: flex;
+    flex-direction: row;
+}
+
+.ProfileThumbnail {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.ProfileName {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 10px;
+}
+
+.ProfileName h3, .ProfileName h4 {
+    display: flex;
+    margin: 0;
+}
+
+
+.Date {
+    display: flex;
+    align-items: flex-start;
+    margin: 0 0 0 auto;
+}
+
+.Article__Inner {
+    margin: 15px 0;
+    font-size: 20px;
+}
+
+.Stats {
+    display: flex;
+    font-size: 15px;
+}
+
+.Stats strong {
+    font-size: 18px;
+}
+
+.Article__Cta {
+    margin-left: auto;
+}
+
+.ShareBtn, .LikeBtn {
+    border: 0;
+    background: transparent;
+    cursor: pointer;
+    padding: 0 10px; 
+    color: white;
+}

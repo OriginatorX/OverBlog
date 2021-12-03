@@ -1,0 +1,10 @@
+/**
+    Importing all application styles
+*/
+
+@import './App.css';
+@import './Articles.css';
+@import './ModalWindow.css';
+@import './Nav.css';
+@import './Home.css';
+@import './Auth.css';

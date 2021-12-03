@@ -1,0 +1,5 @@
+{
+    "PORT": 8888,
+    "mongoURI": "mongodb://localhost:27017/overblogDB",
+    "JWTprivateKey": "veryverySecretKey"
+}

@@ -1,0 +1,34 @@
+body {
+    height: 100%;
+    margin: 0 auto;
+	font-family: 'Open Sans', sans-serif;
+	line-height: 1.5;
+    box-sizing: border-box;
+    scrollbar-width: 0px;
+    scrollbar-width: none;
+}
+    body::-webkit-scrollbar {
+        width: 0;
+    }
+
+    body::-moz-webkit-scrollbar {
+        width: 0;
+    }
+
+.hideOverflow {
+    overflow: hidden;
+}
+
+.PageLoad {
+    font-weight: 700;
+    font-size: 22px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Btn color dependent from this*/
+:root {
+	--primary-color: #3a4052;
+}
