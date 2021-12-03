@@ -10,4 +10,4 @@
 ### For production build
     yarn prod
 
-![logo](logo.jpg)
+![logo](poster.jpg)
