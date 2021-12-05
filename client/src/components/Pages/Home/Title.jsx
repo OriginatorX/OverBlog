@@ -53,7 +53,6 @@ class Title extends React.Component {
                         hideOverFlow={this.hideOverFlow} 
                     />
                 </div>
-              
             </section>
         );
     }
