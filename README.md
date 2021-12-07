@@ -1,6 +1,8 @@
 # OverBlog is a website for creating and posting articles
 ## Development in proccess...
 
+## A MongoDB cluster is required to use the server
+
 ### For install dependencies
     yarn deps
 
